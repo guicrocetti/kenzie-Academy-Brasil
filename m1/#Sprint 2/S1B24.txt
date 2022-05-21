@@ -1,0 +1,54 @@
+Trocar uma lâmpada
+    1. Segurar uma cadeira com as pernas da cadeira para baixo
+    2. Posicionar a cadeira em baixo da lampada
+    3. Soltar a cadeira
+    4. Segurar a lampada nova com a mão direita
+    5. subir na cadeira
+    6. Segurar com a mão esquerda a lampada antiga e rosquear no sentido horário até que a lampada antiga se solte
+    7. abaixar a mão esquerda.
+    8. Posicionar com a mão direita o bocal da lampada nova no local onde estava a lampda antiga
+    9. Rosquear a lampada nova no sentido anti-horário até que a luz acenda
+Uma pessoa beber um copo com água
+    1. Segurar o copo com a mão esquerda com a barte oca virada  para cima
+    2. Posicionar o copo 5cm abaixo da saida de agua da torneira
+    3. abrir o registro da torneira com a mão direita
+    4. esperar que o copo esteja 3/4 cheio
+    5. fechar o registro da torneira com a mão direita.
+    6. levar o copo até a boca com a parte oca virada para cima
+    7. abrir a boca
+    8. Girar o copo no sentido da boca com a parte oca virada para a boca
+    9. engolir a agua.
+    10. aguardar até o copo estar vazio
+    11. voltar o copo para posição original
+Uma pessoa fritar um ovo
+    1. Pegar uma frigideira com a mão direita
+    2. posicionar a frigideira em cima da boca no fogão com a parte oca da frigideira para cima
+    3. soltar a frigideira
+    4. segurar o óleo com a mão direita e a parte da tampa virada pra cima
+    5. abrir a tampa do óleo com a mão esquerda
+    6. posicionar o óleo em cima da frigideira
+    7. despejar 5ml de óleo dentro da frigideira
+    8. posicionar o óleo em cima do balcão a 1cm de distancia da base da garrafa
+    9. soltar a garrafa de óleo
+    10. acender o fogo
+    11. segurar o ovo com a mão direita
+    12. bater a casaca do ovo na borda da frigideira
+    13. despejar o conteudo do ovo na frigideira
+    14. mexer por 3min
+    15. apagar o fogo
+Somar dois números
+    1. Pegar um lapis
+    2. ler o primeiro numero
+    3. ler o segundo numero
+    4. somar o primeiro numero mais o segundo numero
+    5. escrever o resultado da soma
+Somar dois números e multiplicar o resultado pelo primeiro número
+    1. Pegar um lapis
+    2. ler o primeiro numero
+    3. ler o segundo numero
+    4. somar o primeiro mais o segundo numero
+    5. escrever o resultado da soma no papel
+    6. ler o resultado da soma
+    7. ler o primeiro numero
+    8. multiplicar o resultado da soma pelo primeiro numero
+    9 escrever o resultado da multiplicação no papel.

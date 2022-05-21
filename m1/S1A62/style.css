@@ -1,0 +1,11 @@
+li {
+    display: inline;
+    border-style: double;
+    border-width: 5px;
+    border-bottom: rgb(7, 0, 0);
+    box-shadow: 5px 5px 15px;
+    font-size: 3em;
+    list-style: none;
+    
+   }
+  

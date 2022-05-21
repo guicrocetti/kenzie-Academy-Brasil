@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background: linear-gradient(90deg, #FFFFFF,#B9E0F7,#F58426,#EF4423,#182E3A);
+}
+
+.item {
+    width: 25%;
+    height: 100px;
+    background: linear-gradient(90deg, #FFFFFF,#B9E0F7,#F58426);
+    border: 1px solid black;
+}

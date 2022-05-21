@@ -1,0 +1,71 @@
+Capstone: E-commerce: ✍🏿 Planejamento
+
+2 - ➰ Entendendo o projeto: Fluxograma
+home page
+Pesquisa produtos na caixa de pesquisa
+adiciona os produtos no carrinho
+Muda a quantidade ou remove produtos
+finaliza a compra
+
+//-------------------------------------------------------------//
+
+3 - 🎲 Divisão de componentes
+
+PALETA DE CORES:
+
+COR PRIMÁRIA: #27AE60
+COR SECUNDÁRIA: #EB5757
+
+ESCALA DE CINZA:
+100 - #27AE60
+50 - #EB5757
+0 - #F5F5F5
+
+FONTES: Inter
+Google Fontes
+
+<h1> Bold 26px
+<h2> Bold 22px
+<h3> Bold 18px
+<p> regular 16px
+small regualar 14px
+caption regular 12px
+
+
+
+Homepage
+header ->
+<img>logo
+<menu>categorias
+<-
+
+aside->
+<input>barra de pesquisa
+<section> carrinho de compras
+<p>quantidade
+<p>total
+<a>finalizar compra
+<-
+
+
+section -> Hover div
+<div>Banner com ofertas em destaque</div>
+<buton>Adiconar no carrinho<buton>
+<div>Banner com ofertas em destaque</div>
+<buton>Adiconar no carrinho<buton>
+<div>Banner com ofertas em destaque</div>
+<buton>Adiconar no carrinho<buton>
+<-
+
+//-------------------------------------------------------------//
+
+4 - 🎲 Javascript: Dinamizando DOM
+
+function ProcurarProdutos()
+function AdicionarNoCarrinho()
+function RemoverDoCarrinho()
+function Favoritas()
+function QuantidadeDeItens()
+function FecharPedido()
+
+

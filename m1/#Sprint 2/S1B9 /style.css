@@ -1,0 +1,30 @@
+
+/* Definindo a borda azul ao elementos h1 com atributo "example" */
+[title*="example"] {
+    border: 5px solid blue;
+  }
+  
+  
+/* escreva aqui */
+[title*="flow"] 
+{ 
+    border: 5px solid red;
+  }
+  
+
+  /* PASSO3 */
+
+  input:invalid::after {
+    background-color: tomato;
+  }
+
+  input:focus {
+    color: rgb(109, 11, 201);
+    
+  }
+  
+input:valid::before {
+  color: green;
+  background: green;
+  background-color: green;
+}

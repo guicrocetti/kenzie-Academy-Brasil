@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../seu-barriga"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "kenzie"
+	}
+}

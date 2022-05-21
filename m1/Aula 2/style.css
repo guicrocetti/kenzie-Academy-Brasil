@@ -1,0 +1,31 @@
+.box_1{
+    background-color: #1c1c1c;
+    width: 200px;
+    box-sizing: border-box;
+}
+.box_2{
+    background-color: #1c2c3c;
+    width: 10pc;
+    box-sizing: border-box;
+}
+.box_3{
+    background-color: blue;
+    width: 100pt;
+    box-sizing: border-box;
+}
+.box_4{
+    background-color: blue;
+    width: 50vh;
+    box-sizing: border-box;
+}
+.box_5{
+    background-color: blue;
+    width: 210in;
+    box-sizing: border-box;
+}
+.box_6{
+    background-color: blue;
+    width: 20vw;
+    box-sizing: border-box;
+    margin-top: 30px;
+}

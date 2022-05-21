@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #table {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    border: 1px solid black;
+  }
+  
+  .column {
+    height: 100%;
+  }
+  
+  .cell {
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .player1, .player2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .player1 {
+    background-color: black;
+  }
+  
+  .player2 {
+    background-color: brown;
+  }

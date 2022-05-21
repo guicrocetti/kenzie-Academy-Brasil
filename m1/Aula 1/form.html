@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Form aula 1</title>
+</head>
+<body style="background-image:url('https://wallpaperbat.com/img/289216-free-download-simple-bright-colorful-wallpaper-colorful-desktop.jpg');">
+    <h1 style="background-color: gold; color: green; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Atividade - HTML: Criando formulário</h1>
+    <h2 style="text-align:center">Cadastro de usuário padrão</h2>
+    <form autocomplete="on" method="POST" name="myform">
+        <fieldset style="background-color:rgb(189, 189, 189);">
+            <legend style="font-weight: 1000; color: rgb(99, 9, 9);">DADOS DE ACESSO *</legend><br>
+            <label for="umail" style="text-align: right; font-weight: bold;">E-mail</label><br>
+            <input type="email" id="umail" required autofocus></input><br>
+            <label for="userpw" style="text-align: right; font-weight: bold;">Senha</label><br>
+            <input type="password" id="userpw" required></input><br>
+            <input type="checkbox" onclick="hidepw()">Mostrar Senha</input><br>
+        </fieldset><br>
+        <fieldset>
+            <legend style="font-weight: 1000;">DADOS PESSOAIS</legend><br>
+                <div>
+                    <label for="name">Primeiro Nome</label><br>
+                    <input type="text" size="20" id=name><br>
+                </div>
+                <div>
+                    <label for="lname">Sobrenome</label><br>
+                    <input type="text" size="50" id=lname></input><br><br>
+                </div>
+                <div>
+                    <label for="genero">Qual o seu sexo?</label><br>
+                    <label>
+                        <input type="radio" id="masculino" name="genero" value="Mascuino">Masculino
+                    </label>
+                    <label>
+                        <input type="radio" id="feminino" name="genero" value="Feminino">Feminino
+                    </label>
+                    <label>
+                        <input type="radio" id="semgenero" name="genero" value="Sem Genero">Prefiro não responder
+                    </label>
+                    <br><br>
+                </div>  
+                <div>
+                    <label for="cpf">CPF</label>
+                        <input type="text" placeholder="123.456.789-10" id=cpf></input>
+                </div><br>
+                <div>
+                    <label for="phone">Telefone</label>
+                        <input type="tel" id=phone></input>
+                </div><br>
+                <div>
+                    <label for="bdate">Data de Nascimento</label>
+                        <input type="date" id=bdate></input>
+                </div><br>
+
+        </fieldset>
+        <fieldset>
+            <legend style="font-weight: 1000;">ENDEREÇO</legend><br>
+                <div>
+                    <label for="cep">CEP</label><br>
+                        <input type="text" id=cep><br>
+                    <label for="rua">Rua</label><br>
+                        <input type="text" id=rua><br>
+                    <label for="numero">Numero</label><br>
+                        <input type="number" id=numero><br>
+                    <label for="bairro">Bairro</label><br>
+                        <input type="text" id=bairro><br>
+                    <label for="cidade">CEP</label><br>
+                        <input type="text" id=cidade><br>    
+                    <label for="estado">Estado</label><br>
+                            <select id="estado" name="estado">
+                                <option selected disabled value="">Selecone seu estado...</option>
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="EX">Estrangeiro</option>
+                            </select>
+                </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <div>
+            <label for="obs">Observações Finais</label><br>
+            <textarea rows="6" style="width: 30em;" placeholder="coloque aqui suas observações finais..."></textarea>><br>
+            <button>Enviar</button>
+        </div>
+        </fieldset>
+    </form>
+
+</body>
+<script>
+    function hidepw() {
+        var x = document.getElementById("userpw")
+        if (x.type === "password"){
+            x.type = "text";
+        }
+        else {
+            x.type ="password";
+        }
+    }
+</script>
+</html>

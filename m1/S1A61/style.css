@@ -1,0 +1,18 @@
+.mydiv {
+width: 20%;
+background-color: #398bde;
+margin: 150px;
+fill: aqua;
+border-style: dashed;
+border-color: goldenrod;
+border-radius: 15px;
+box-shadow: 5px 5px 10px;
+}
+
+.mydiv2 {
+width: 81%;
+height: 150px;
+background-color: #b2d7e6;
+fill: rgb(67, 33, 189);
+box-shadow: 5px 5px 10px;
+}
